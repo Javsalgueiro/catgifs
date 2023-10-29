@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Javier Salgueiro <jsalg028@fiu.edu>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>catgifs</id>
+    <name>Cat Gifs</name>
+    <summary>Test</summary>
+    <description><![CDATA[Test]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="jsalg028@fiu.edu" >Javier Salgueiro</author>
+    <namespace>CatGifs</namespace>
+    <category>customization</category>
+    <bugs>https://www.test.com/</bugs>
+    <dependencies>
+        <nextcloud min-version="24" max-version="27"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <id>tutorialtwo</id>
+            <name>Cat Gif app</name>
+            <!-- syntax is APP_ID.CONTROLLER_NAME.METHOD_NAME -->
+            <route>catgifs.page.mainPage</route>
+            <icon>app.svg</icon>
+            <order>8</order>
+        </navigation>
+    </navigations>
+</info>
